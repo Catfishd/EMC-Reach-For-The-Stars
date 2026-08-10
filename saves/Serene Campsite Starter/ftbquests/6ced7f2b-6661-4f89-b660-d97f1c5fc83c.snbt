@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "6ced7f2b66614f89b660d97f1c5fc83c"
+	name: "PuzzleMaster39#6ced7f2b"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

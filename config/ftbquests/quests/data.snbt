@@ -1,0 +1,26 @@
+{
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: "hexagon"
+	default_reward_team: false
+	detection_delay: 20
+	disable_gui: false
+	drop_book_on_death: false
+	drop_loot_crates: false
+	emergency_items_cooldown: 300
+	grid_scale: 0.5d
+	hide_excluded_quests: false
+	icon: "kubejs:rfts_icon"
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
+	pause_game: false
+	progression_mode: "linear"
+	show_lock_icons: false
+	title: "&#B300FFR&#AF04FFe&#AC07FFa&#A80BFFc&#A50EFFh &#9D16FFF&#9A19FFo&#961DFFr &#8F24FFT&#8B28FFh&#882BFFe &#8033FFS&#7D36FFt&#793AFFa&#763DFFr&#7241FFs"
+	version: 13
+}

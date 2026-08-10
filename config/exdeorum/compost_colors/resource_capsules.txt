@@ -1,0 +1,23 @@
+// Compost colors for resource_capsules. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bio_capsule, #8a7052
+bio_catalyst, #866e51
+end_advanced_capsule, #d4fec5
+end_advanced_catalyst, #c8e8b2
+end_capsule, #f5f5b5
+end_catalyst, #dee0a5
+nether_advanced_capsule, #735b57
+nether_advanced_catalyst, #8a6262
+nether_capsule, #76322c
+nether_catalyst, #9e504e
+overworld_capsule, #51e85c
+overworld_catalyst, #50e45b
+tier_1_large_capsule, #dedcd9
+tier_1_large_catalyst, #6e6c6c
+tier_1_medium_capsule, #dddad9
+tier_2_large_capsule, #ffe152
+tier_2_large_catalyst, #e1d6c5
+tier_2_medium_capsule, #ffe054
+tier_2_medium_catalyst, #e0d7c8
+tier_2_mini_catalyst, #e1d3be
+tier_3_large_capsule, #a2ffff
+tier_3_large_catalyst, #acfffa
