@@ -1,7 +1,7 @@
 # Minecraft mod files
 mods/*.jar
 mods/*.zip
-
+/mods
 # Shader files
 shaderpacks/*.zip
 
