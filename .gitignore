@@ -1,7 +1,15 @@
 # Minecraft mod files
 mods/*.jar
 mods/*.zip
-/mods
+mods/
+.stfolder/
+crash-reports/
+logs/
+saves/
+schematics/
+screenshots/
+patchouli_books/
+
 # Shader files
 shaderpacks/*.zip
 
