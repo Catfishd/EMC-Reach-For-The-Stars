@@ -78,6 +78,7 @@
 #7EFF77 create:red_seat
 #CFE6E6 minecraft:red_stained_glass
 #858D27 minecraft:red_stained_glass_pane
+#3B2B9D resource_capsules:resource_gen_tier_1
 #7B5F9D immersiveengineering:rs_engineering
 #705189 minecraft:sea_lantern
 #079D5C immersiveengineering:sheetmetal_steel
