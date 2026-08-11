@@ -1,5 +1,5 @@
 MMEvents.createStructures((event) => {
-event
+    event
     .create("mm:t1_rocket_assembly_structure")
     .controllerId("mm:t1_rocket_assembly_controller")
     .name("T1 Rocket Assembly")
