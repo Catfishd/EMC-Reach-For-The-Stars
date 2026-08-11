@@ -1,2 +1,0 @@
-// Compost colors for mbd2. You may add your own colors, change existing ones, or remove colors that aren't needed.
-mbd_gadgets, #f2ffff
