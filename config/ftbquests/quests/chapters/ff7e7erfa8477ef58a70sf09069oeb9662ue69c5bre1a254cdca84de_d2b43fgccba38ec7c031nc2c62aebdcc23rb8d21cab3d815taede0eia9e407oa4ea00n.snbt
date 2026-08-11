@@ -6,6 +6,58 @@
 	id: "23F1993A0AEC0A1E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["71448CBF5506B76E"]
+			id: "70C70674C112B2B1"
+			tasks: [{
+				id: "3A0E722E467CDD4B"
+				title: "Time to generate"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "61E3D62567668B76"
+			tasks: [{
+				id: "18C6A1A09D79AC21"
+				item: "resource_capsules:resource_gen_tier_1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "484BF7F121B5AA11"
+			tasks: [{
+				id: "638793FFA67AD679"
+				item: "kubejs:earth_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "28DA36D1505B9EFF"
+			tasks: [{
+				id: "10427D9802DA2E87"
+				item: "kubejs:earth_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0B03B5CFC40DBD74"
+			tasks: [{
+				id: "5CE712220724BA06"
+				item: "kubejs:earth_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+	]
 	title: "&#FF7E7ER&#FA8477e&#F58A70s&#F09069o&#EB9662u&#E69C5Br&#E1A254c&#DCA84De &#D2B43FG&#CCBA38e&#C7C031n&#C2C62Ae&#BDCC23r&#B8D21Ca&#B3D815t&#AEDE0Ei&#A9E407o&#A4EA00n"
 }
