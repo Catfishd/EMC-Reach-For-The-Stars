@@ -30,16 +30,24 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"3FC4BA85622EBFAD"
+				"23239C037159D1CC"
+			]
 			id: "7671F464DDC40287"
 			tasks: [{
 				id: "5F857BE678A401C9"
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"7671F464DDC40287"
+				"3FC4BA85622EBFAD"
+			]
 			id: "73F72B2AB730A16F"
 			tasks: [{
 				id: "5EC3E0A5F29F52B7"
@@ -47,9 +55,13 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
+			dependencies: [
+				"73F72B2AB730A16F"
+				"7671F464DDC40287"
+			]
 			id: "1BAFAE9F0F65E3BC"
 			tasks: [
 				{
@@ -75,8 +87,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -4.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			id: "23239C037159D1CC"
@@ -87,6 +99,50 @@
 			}]
 			x: 0.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "15989E0C43EA7C65"
+			tasks: [{
+				id: "7E12AEB959DCD06B"
+				item: "kubejs:fire_element"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "4D785155B5A63DD5"
+			tasks: [{
+				id: "4DA054955F861C53"
+				item: "kubejs:earth_element"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "341D01C4BD53B85B"
+			tasks: [{
+				id: "7A7C3E50A208084F"
+				item: "kubejs:water_element"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "2A9E34320158017A"
+			tasks: [{
+				id: "26F6CB24E39D4AC4"
+				item: "kubejs:air_element"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
 		}
 	]
 	title: "&#FFFFFFO&#F6F6F6n&#EDEDEDe &#DADADAG&#D1D1D1i&#C8C8C8a&#BFBFBFn&#B6B6B6t &#A3A3A3L&#9A9A9Ae&#919191a&#888888p"

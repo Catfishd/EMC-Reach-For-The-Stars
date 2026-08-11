@@ -1,4 +1,3 @@
-priority: 1;
 MMEvents.createStructures((event) => {
   event
     .create("mm:fuel_distillery_structure")
