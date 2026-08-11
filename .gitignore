@@ -9,6 +9,7 @@ saves/
 schematics/
 screenshots/
 patchouli_books/
+options.txt
 
 # Shader files
 shaderpacks/*.zip

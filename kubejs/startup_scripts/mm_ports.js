@@ -19,4 +19,13 @@ MMEvents.registerPorts(event => {
         c.autoPush(true)
         c.tierRank(1)
     })
+    event.create('item_port')
+    .name('Basic Item Port')
+    .controllerId('mm:t1_rocket_assembly_controller')
+    .config('mm:item', c => {
+        c.rows(3)
+        c.columns(3)
+        c.slotCapacity(64)
+        c.tierRank(1)
+    })
 })
