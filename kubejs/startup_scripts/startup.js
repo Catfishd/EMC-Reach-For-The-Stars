@@ -10,8 +10,8 @@ StartupEvents.registry('item', event => {
     event.create('fire_element').displayName('Fire Element').texture('kubejs:item/essence/fire_essence')
 
     // Planetary Ingots
-    event.create('earth_ingot').displayName('Earth Ingot').texture('kubejs:item/temp')
-    event.create('moon_ingot').displayName('Moon Ingot').texture('kubejs:item/temp')
+    event.create('earth_ingot').displayName('Earth Ingot').texture('kubejs:item/planetary/earth_ingot')
+    event.create('moon_ingot').displayName('Moon Ingot').texture('kubejs:item/planetary/moon_ingot')
     event.create('mars_ingot').displayName('Mars Ingot').texture('kubejs:item/temp')
     event.create('venus_ingot').displayName('Venus Ingot').texture('kubejs:item/temp')
     event.create('mercury_ingot').displayName('Mercury Ingot').texture('kubejs:item/temp')
