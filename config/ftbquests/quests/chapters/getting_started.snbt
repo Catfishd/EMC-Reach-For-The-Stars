@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "78F30980440602A3"
+	id: "7D002DB5EA742D78"
+	images: [{
+		height: 15.0d
+		image: "kubejs:item/cores/earth_core"
+		rotation: 0.0d
+		width: 15.0d
+		x: 2.5d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F5B8C54E72D691A"
+			tasks: [{
+				id: "22F8D1637634592E"
+				type: "checkmark"
+			}]
+			title: "The start of something great."
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F5B8C54E72D691A"]
+			id: "68F6B0F616DA6910"
+			tasks: [{
+				id: "518558F39CD547FD"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68F6B0F616DA6910"]
+			id: "160AF659B3F15204"
+			tasks: [{
+				id: "06AF9C533283DDF9"
+				item: {
+					Count: 1
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68F6B0F616DA6910"]
+			id: "65CF6D68E706D291"
+			tasks: [{
+				id: "037932B09BC9B63B"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65CF6D68E706D291"]
+			id: "75794A5FFCE383AB"
+			tasks: [{
+				id: "4D9D1AD1BB6B749C"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75794A5FFCE383AB"]
+			id: "7A7B21E58741803B"
+			tasks: [{
+				id: "6FD6FE98C2990E4C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A7B21E58741803B"]
+			id: "1F6CD5945A25D407"
+			tasks: [{
+				id: "7A005EDB30ACFAEE"
+				item: {
+					Count: 1
+					id: "exdeorum:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F6CD5945A25D407"]
+			id: "2B40B313BA2B20C8"
+			shape: "hexagon"
+			tasks: [{
+				id: "251DB32A2B79CE04"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7A7B21E58741803B"
+				"2B40B313BA2B20C8"
+			]
+			id: "38CCA50F9F1DEAE8"
+			tasks: [{
+				id: "555B2C3C6B27EB82"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B40B313BA2B20C8"]
+			id: "2254C1469A702422"
+			tasks: [{
+				id: "2B20744CC23F3266"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2254C1469A702422"]
+			id: "58C71B91CAD35FDD"
+			tasks: [{
+				id: "7B05DE8BCF975187"
+				item: "exdeorum:dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38CCA50F9F1DEAE8"]
+			id: "0595A333060D038E"
+			tasks: [{
+				id: "5D09B2116D3625D8"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38CCA50F9F1DEAE8"]
+			id: "7F80C104D5B61083"
+			tasks: [
+				{
+					id: "7B72CA6B4FA91D77"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "324F76FDA82B75D9"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F80C104D5B61083"]
+			id: "2125B0820566C834"
+			tasks: [
+				{
+					id: "1ED04ED359752074"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "42BE1983BACEFB70"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F80C104D5B61083"]
+			id: "04668FCD012B51D9"
+			tasks: [{
+				id: "31ED028779E3C9D5"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7F80C104D5B61083"
+				"04668FCD012B51D9"
+			]
+			id: "68DF289CF6E138EF"
+			tasks: [{
+				id: "5BB27E667149794E"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0595A333060D038E"
+				"7F80C104D5B61083"
+			]
+			id: "3808C3FAFA377930"
+			tasks: [
+				{
+					id: "0C0423CEB8CE36DD"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "2192CA8A4AB19906"
+					item: {
+						Count: 1
+						id: "createsifter:andesite_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3808C3FAFA377930"]
+			id: "449E67E77DF52A08"
+			tasks: [
+				{
+					id: "7EAB358303327F94"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "17430F23EB8949D9"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+				{
+					id: "329568F0ADA0073C"
+					item: "create:copper_nugget"
+					type: "item"
+				}
+				{
+					id: "7863D264B468A5D5"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3808C3FAFA377930"]
+			id: "286B39BC7286556A"
+			tasks: [
+				{
+					id: "3A4B4C80EF6528D2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "334B44078B3554A0"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "654EDA88439F32E4"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["160AF659B3F15204"]
+			id: "7E2E11C8CABDD923"
+			tasks: [{
+				id: "2C9FBB557146099D"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["449E67E77DF52A08"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0450AED0C75CEF11"
+			tasks: [{
+				id: "77E6A054FC9F9FA6"
+				type: "checkmark"
+			}]
+			title: "The start of Immersive Engineering"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["449E67E77DF52A08"]
+			id: "7617D00C40051FA7"
+			tasks: [{
+				id: "18B2A664C6B3230F"
+				item: "kubejs:iron_flux_coil"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7617D00C40051FA7"]
+			id: "760B09415EC6C887"
+			tasks: [{
+				id: "0CCF318F97DAC8EC"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "Beginner power"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68F6B0F616DA6910"]
+			id: "74C3C9533C2224C7"
+			tasks: [{
+				id: "37FDA8A60AD83E00"
+				item: "exdeorum:oak_barrel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58C71B91CAD35FDD"]
+			id: "735DD19F2068B007"
+			tasks: [{
+				id: "03A940CAAB2B9091"
+				item: "exdeorum:porcelain_crucible"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	title: "&#FF9F9FG&#F598A6e&#EB92ADt&#E18BB4t&#D784BAi&#CD7DC1n&#C377C8g &#AE69D6S&#A463DDt&#9A5CE4a&#9055EAr&#864EF1t&#7C48F8e&#7241FFd"
+}

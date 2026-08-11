@@ -1,0 +1,40 @@
+# Minecraft mod files
+mods/*.jar
+mods/*.zip
+mods/
+.stfolder/
+crash-reports/
+logs/
+saves/
+schematics/
+screenshots/
+patchouli_books/
+
+# Shader files
+shaderpacks/*.zip
+
+# Logs
+logs/
+*.log
+
+# Crash reports
+crash-reports/
+
+# Runtime/cache
+.cache/
+.minecraft/
+
+# Temporary files
+*.tmp
+*.bak
+
+# JSON
+*.json
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
