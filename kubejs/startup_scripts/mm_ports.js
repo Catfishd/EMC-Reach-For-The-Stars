@@ -1,0 +1,22 @@
+MMEvents.registerPorts(event => {
+    event.create('fluid_port')
+    .name('Basic Fluid Port')
+    .controllerId('mm:fuel_distillery')
+    .config('mm:fluid', c => {
+        c.rows(1)
+        c.columns(1)
+        c.slotCapacity(1000)
+        c.autoPush(true)
+        c.tierRank(1)
+    })
+    event.create('energy_port')
+    .name('Basic Energy Port')
+    .controllerId('mm:fuel_distillery')
+    .config('mm:energy', c => {
+        c.capacity(1000)
+        c.maxReceive(1000)
+        c.maxExtract(1000)
+        c.autoPush(true)
+        c.tierRank(1)
+    })
+})

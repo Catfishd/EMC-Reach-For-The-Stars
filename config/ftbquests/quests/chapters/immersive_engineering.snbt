@@ -764,22 +764,70 @@
 			y: -2.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["03868A6ACABE51CD"]
-			id: "01FB36C50288206D"
-			rewards: [{
-				id: "1EFD924E26DC4F4B"
+			description: ["Press \"U\" on the controller block to see how to construct the multiblock!"]
+			id: "446143E642B2FC50"
+			subtitle: "Read me!"
+			tasks: [
+				{
+					count: 12L
+					id: "0F4BEB0DFB60DBCB"
+					item: { Count: 12, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2968243DAD4D6064"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "78EB4D3E421A11E8"
+					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "301B576527D41FD1"
+					item: { Count: 8, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					id: "743497595C1D806F"
+					item: "mm:fluid_port_input"
+					type: "item"
+				}
+				{
+					id: "43574A0CB33C75F2"
+					item: "mm:fluid_port_output"
+					type: "item"
+				}
+				{
+					id: "2EFC84707C49AD29"
+					item: "mm:energy_port_input"
+					type: "item"
+				}
+				{
+					id: "49759266AD8A2224"
+					item: "mm:fuel_distillery"
+					type: "item"
+				}
+			]
+			title: "The Fuel Distillery"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["446143E642B2FC50"]
+			id: "5B121665E90ED05F"
+			subtitle: "This will get you to the moon!"
+			tasks: [{
+				id: "1D4582F216A96CC3"
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: true
-				id: "76DDB19894823100"
-				item: "immersiveengineering:biodiesel_bucket"
-				type: "item"
-			}]
-			title: "Temporary Quest"
-			x: -0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 	]
