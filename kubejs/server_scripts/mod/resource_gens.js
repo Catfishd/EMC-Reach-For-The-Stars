@@ -21,4 +21,16 @@ ServerEvents.recipes((event) => {
     event.shaped(Item.of("minecraft:bone_meal", 1), ["S  ", "   ", "   "], {
         S: "kubejs:earth_shard"
     });
+    event.custom({
+		type: "resource_capsules:resource_gen_tier_1",
+		ingredients: [
+			{
+				"item": "kubejs:earth_core"
+			}
+		],
+		result: {
+			"count": 1,
+			"item": "kubejs:earth_shard"
+		}
+	});
 });
