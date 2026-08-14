@@ -20,6 +20,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["58E4574A0C1EC90F"]
 			id: "3FC4BA85622EBFAD"
 			tasks: [{
 				id: "4E3383515F25796B"
@@ -30,26 +31,38 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"3FC4BA85622EBFAD"
+				"23239C037159D1CC"
+			]
 			id: "7671F464DDC40287"
 			tasks: [{
 				id: "5F857BE678A401C9"
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"7671F464DDC40287"
+				"3FC4BA85622EBFAD"
+			]
 			id: "73F72B2AB730A16F"
 			tasks: [{
 				id: "5EC3E0A5F29F52B7"
 				item: "pneumaticcraft:air_compressor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
+			dependencies: [
+				"73F72B2AB730A16F"
+				"7671F464DDC40287"
+			]
 			id: "1BAFAE9F0F65E3BC"
 			tasks: [
 				{
@@ -75,10 +88,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["58E4574A0C1EC90F"]
 			id: "23239C037159D1CC"
 			tasks: [{
 				id: "0DF34517611B4AEE"
@@ -87,6 +101,99 @@
 			}]
 			x: 0.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "15989E0C43EA7C65"
+			tasks: [{
+				id: "7E12AEB959DCD06B"
+				item: "kubejs:fire_element"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "4D785155B5A63DD5"
+			tasks: [{
+				id: "4DA054955F861C53"
+				item: "kubejs:earth_element"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "341D01C4BD53B85B"
+			tasks: [{
+				id: "7A7C3E50A208084F"
+				item: "kubejs:water_element"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BAFAE9F0F65E3BC"]
+			id: "2A9E34320158017A"
+			tasks: [{
+				id: "26F6CB24E39D4AC4"
+				item: "kubejs:air_element"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4D785155B5A63DD5"
+				"15989E0C43EA7C65"
+				"341D01C4BD53B85B"
+				"2A9E34320158017A"
+			]
+			id: "4C1221F3AD7DD2F6"
+			tasks: [{
+				id: "3B86F0374BD64F9F"
+				item: "kubejs:earth_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C1221F3AD7DD2F6"]
+			id: "71448CBF5506B76E"
+			tasks: [{
+				id: "26E7FD9AA521988C"
+				title: "Resource Generation Time!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4C1221F3AD7DD2F6"]
+			description: ["Waiting on info on how to add to the resource capsules mod :P"]
+			id: "180750A4F03500A7"
+			rewards: [{
+				count: 128
+				id: "490D810F366AD887"
+				item: "kubejs:earth_shard"
+				type: "item"
+			}]
+			subtitle: "This is here for PLAYTEST"
+			tasks: [{
+				consume_items: true
+				id: "02C2350BE40D79A3"
+				item: "kubejs:earth_core"
+				type: "item"
+			}]
+			title: "Temporary Quest"
+			x: -1.0d
+			y: -5.5d
 		}
 	]
 	title: "&#FFFFFFO&#F6F6F6n&#EDEDEDe &#DADADAG&#D1D1D1i&#C8C8C8a&#BFBFBFn&#B6B6B6t &#A3A3A3L&#9A9A9Ae&#919191a&#888888p"

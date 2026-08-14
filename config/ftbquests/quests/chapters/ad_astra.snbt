@@ -69,8 +69,9 @@
 				"3D897150394949F3"
 				"5322F98737A7589F"
 				"63EE8C9A87C4C6F7"
-				"74E799E1C9220DE6"
+				"53ED406C1257A716"
 			]
+			description: ["Cannot be made in a NASA workbench (Ad Astra sucks) so here's a multiblock!"]
 			id: "36F70BFF87F90F7C"
 			size: 2.5d
 			tasks: [{
@@ -237,17 +238,6 @@
 		}
 		{
 			dependencies: ["314F20A540EFEE53"]
-			id: "74E799E1C9220DE6"
-			tasks: [{
-				id: "6A231C85CB6F1D4E"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["314F20A540EFEE53"]
 			id: "75226C87238D8DD0"
 			tasks: [{
 				id: "212D03495BEB8210"
@@ -256,6 +246,59 @@
 			}]
 			x: 0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "53ED406C1257A716"
+			tasks: [
+				{
+					count: 8L
+					id: "3516B70B306A475A"
+					item: { Count: 8, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1B3F2287D028736A"
+					item: { Count: 12, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78E3622AD7EA7800"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46D8A351C1A7B0FF"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "38C7CC301E00152B"
+					item: "mm:item_port_input"
+					type: "item"
+				}
+				{
+					id: "5C5B2BC3BD41ED70"
+					item: "mm:item_port_output"
+					type: "item"
+				}
+				{
+					id: "5AEF588104B2FF09"
+					item: "mm:energy_port_input"
+					type: "item"
+				}
+				{
+					id: "6321B52DDE0A86D9"
+					item: "mm:t1_rocket_assembly_controller"
+					type: "item"
+				}
+			]
+			title: "T1 Rocket Assembly"
+			x: 2.0d
+			y: -2.5d
 		}
 	]
 	title: "&#A5AEFFA&#A795FFd &#AB63FFA&#AD4BFFs&#AF32FFt&#B119FFr&#B300FFa"
