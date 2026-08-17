@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticraft"
+	group: "2A747ED7DBA569C8"
+	icon: "pneumaticcraft:pressure_chamber_valve"
+	id: "6D04E5FFE0AD7BFA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "&#484848P&#525252n&#5C5C5Ce&#666666u&#6F6F6Fm&#797979a&#838383t&#8D8D8Di&#979797c&#A1A1A1r&#AAAAAAa&#B4B4B4f&#BEBEBEt"
+}

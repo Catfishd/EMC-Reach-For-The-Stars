@@ -8,6 +8,7 @@
 #9106BE minecraft:blue_stained_glass_pane
 #0DF28E antiblocksrechiseled:bright_green
 #FC842A minecraft:campfire
+#F3C652 pneumaticcraft:charging_station
 #76FDF5 minecraft:cherry_leaves
 #189A0B ad_astra:chiseled_moon_stone_bricks
 #7FDE54 minecraft:clay
@@ -62,6 +63,7 @@
 #483B67 minecraft:mossy_stone_bricks
 #52E3AF minecraft:mud
 #AD9EB5 minecraft:oak_leaves
+#4A5E4E minecraft:obsidian
 #79BDC3 minecraft:orange_stained_glass
 #B0786A minecraft:orange_stained_glass_pane
 #E25823 chipped:overgrown_oak_log

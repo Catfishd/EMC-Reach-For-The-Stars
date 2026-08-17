@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "422737CD45FC3BC2", title: "Extra Mods" }
 		{ id: "78F30980440602A3", title: "Chapter 1: Terra" }
 		{ id: "2A747ED7DBA569C8", title: "Chapter 2: Luna" }
 		{ id: "1AF14BB13C8874E2", title: "Chapter 3: Mars" }

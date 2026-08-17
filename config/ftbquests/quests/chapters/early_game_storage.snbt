@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_game_storage"
+	group: "422737CD45FC3BC2"
+	icon: "minecraft:chest"
+	id: "45DCB7285FADC741"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "&#7B5FFFE&#7C62F8a&#7D64F1r&#7E67EBl&#7F6AE4y &#816FD6g&#8272D0a&#8374C9m&#8477C2e &#867CB5s&#877FAEt&#8881A7o&#8984A0r&#8A879Aa&#8B8993g&#8C8C8Ce"
+}

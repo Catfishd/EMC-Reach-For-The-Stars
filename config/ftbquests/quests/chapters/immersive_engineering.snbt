@@ -735,7 +735,7 @@
 				item: "immersiveengineering:transformer"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -829,6 +829,19 @@
 			}]
 			x: 0.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["6907E1A0E6069538"]
+			id: "3121F0F09BB2E00E"
+			subtitle: "TODO"
+			tasks: [{
+				id: "4499B2458ECA9E98"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			title: "A faster way to produce steel"
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	title: "&#FFFFFFI&#FFF8FBm&#FFF1F7m&#FFEAF3e&#FFE4EFr&#FFDDEBs&#FFD6E7i&#FFCFE3v&#FFC8DFe &#FFBBD7E&#FFB4D2n&#FFADCEg&#FFA6CAi&#FF9FC6n&#FF98C2e&#FF91BEe&#FF8BBAr&#FF84B6i&#FF7DB2n&#FF76AEg"
