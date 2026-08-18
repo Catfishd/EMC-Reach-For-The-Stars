@@ -18,9 +18,9 @@ ServerEvents.recipes((event) => {
         C: "minecraft:glass"
     });
     event.shaped(Item.of("mm:energy_port_input", 1), ["ABA", "BCB", "ABA"], {
-        A: "#forge:plates/steel",
-        B: "#forge:ingots/steel",
-        C: "minecraft:redstone_block"
+        A: "#forge:ingots/steel",
+        B: "minecraft:redstone",
+        C: "#forge:storage_blocks/steel"
     });
     event.shaped(Item.of("mm:item_port_input", 1), ["ABA", "BCB", "ABA"], {
         A: "#forge:plates/steel",
