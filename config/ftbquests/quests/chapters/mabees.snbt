@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mabees"
+	group: "71C656739B96EC1A"
+	id: "2B48B84E80392D0E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "MA/Bees"
+}

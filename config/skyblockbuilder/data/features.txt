@@ -57,6 +57,9 @@ botania:purple_mystical_flower_patch
 botania:red_mystical_flower_patch
 botania:white_mystical_flower_patch
 botania:yellow_mystical_flower_patch
+chisel:ore_diabase
+chisel:ore_limestone
+chisel:ore_marble
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
