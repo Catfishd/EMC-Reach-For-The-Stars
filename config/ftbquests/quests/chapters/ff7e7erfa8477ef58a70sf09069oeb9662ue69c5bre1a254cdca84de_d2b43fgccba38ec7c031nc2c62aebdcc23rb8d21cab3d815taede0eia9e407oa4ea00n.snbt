@@ -208,42 +208,10 @@
 		}
 		{
 			dependencies: ["66D047417E090D57"]
-			id: "2FBB1D97DDE8EF15"
+			id: "1D390C9968FC9523"
 			tasks: [{
-				id: "018F92BE461ADB50"
-				item: "ae2:certus_quartz_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
-		}
-		{
-			id: "4315B87340C2C8F0"
-			tasks: [{
-				id: "63967F311A33D1A2"
-				item: "powah:dielectric_paste"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["66D047417E090D57"]
-			id: "15A42C09F06C784F"
-			tasks: [{
-				id: "4FA11BC483965967"
-				item: "mekanism:ingot_tin"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["66D047417E090D57"]
-			id: "3C5257D3A796B990"
-			tasks: [{
-				id: "4CA54D4AB8F30A27"
-				item: "thermal:lead_ingot"
+				id: "50B30311F9D6F6A2"
+				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
 			x: -0.5d
@@ -251,47 +219,25 @@
 		}
 		{
 			dependencies: ["66D047417E090D57"]
-			id: "7F7E0CBDE3D4D0F3"
+			id: "305CDA725CF4D37F"
 			tasks: [{
-				id: "43BC8350C2088370"
-				item: "thermal:silver_ingot"
+				id: "2BD04412BF3F8C7D"
+				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["66D047417E090D57"]
-			id: "4DAB02EFA6C2F46D"
+			id: "64F7B8D848EA1907"
 			tasks: [{
-				id: "7B8BBCE71F50F140"
-				item: "thermal:nickel_ingot"
+				id: "48E452140B67EB5D"
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["7B6B9572DEE72089"]
-			id: "556F3DE4D3769212"
-			tasks: [{
-				id: "634465F94839F3B1"
-				title: "something"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0B03B5CFC40DBD74"]
-			id: "396DA1F84C7603AE"
-			tasks: [{
-				id: "1AA2DE5DCD93F2B5"
-				title: "something2"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 1.0d
 		}
 	]
 	title: "&#00B2F8R&#03B2EAe&#07B2DCs&#0AB1CFo&#0DB1C1u&#10B1B3r&#14B1A5c&#17B098e &#1EB07CG&#21B06Ee&#24B060n&#27AF53e&#2BAF45r&#2EAF37a&#31AF29t&#34AE1Ci&#38AE0Eo&#3BAE00n"

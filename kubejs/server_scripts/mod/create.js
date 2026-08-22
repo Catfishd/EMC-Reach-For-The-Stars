@@ -36,6 +36,7 @@ ServerEvents.recipes((event) => {
       Item.of("create:copper_nugget").withChance(0.1),
       Item.of("minecraft:coal").withChance(0.2),
       Item.of("minecraft:flint").withChance(0.25),
+      Item.of("immersiveengineering:nugget_aluminum").withChance(0.1),
     ],
     ["minecraft:gravel", "createsifter:andesite_mesh"],
   );

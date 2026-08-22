@@ -11,12 +11,12 @@ ServerEvents.recipes((event) => {
       {
         type: "pneumaticcraft:stacked_item",
         item: "minecraft:dirt",
-        count: 128,
+        count: 16,
       },
       {
         type: "pneumaticcraft:stacked_item",
         item: "minecraft:stone",
-        count: 128,
+        count: 16,
       },
     ],
     pressure: 4.0,
@@ -27,8 +27,8 @@ ServerEvents.recipes((event) => {
     inputs: [
       {
         type: "pneumaticcraft:stacked_item",
-        item: "minecraft:lava_bucket",
-        count: 32,
+        item: "minecraft:obsidian",
+        count: 64,
       },
     ],
     pressure: 4.0,
@@ -39,8 +39,8 @@ ServerEvents.recipes((event) => {
     inputs: [
       {
         type: "pneumaticcraft:stacked_item",
-        item: "minecraft:water_bucket",
-        count: 32,
+        item: "minecraft:ice",
+        count: 64,
       },
     ],
     pressure: 4.0,

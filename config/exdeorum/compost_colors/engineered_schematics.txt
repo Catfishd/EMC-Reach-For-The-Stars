@@ -1,0 +1,3 @@
+// Compost colors for engineered_schematics. You may add your own colors, change existing ones, or remove colors that aren't needed.
+corkboard, #fae1c9
+multiblock_schematic, #decdb9

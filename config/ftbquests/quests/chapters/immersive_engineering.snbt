@@ -403,12 +403,19 @@
 		{
 			dependencies: ["131C8934AF505AF9"]
 			id: "3E4DE7ECAE8510DC"
-			tasks: [{
-				count: 96L
-				id: "0DE89D99798E443E"
-				item: "immersiveengineering:dust_coke"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 96L
+					id: "0DE89D99798E443E"
+					item: "immersiveengineering:dust_coke"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "722728CBD2ED9146"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: 3.0d
 		}
@@ -469,6 +476,7 @@
 					count: 12L
 					id: "4B8D9946825CCEFE"
 					item: "immersiveengineering:dust_hop_graphite"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -480,7 +488,12 @@
 							blueprint: "electrode"
 						}
 					}
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "484B63DAC7CB98B1"
+					type: "checkmark"
 				}
 			]
 			x: 2.0d
@@ -489,17 +502,24 @@
 		{
 			dependencies: ["2A0A17E4EFBB912E"]
 			id: "187BA15AA2E0728A"
-			tasks: [{
-				id: "58136DB4F94E0417"
-				item: {
-					Count: 1
-					id: "immersiveengineering:graphite_electrode"
-					tag: {
-						graphDmg: 0
+			tasks: [
+				{
+					id: "58136DB4F94E0417"
+					item: {
+						Count: 1
+						id: "immersiveengineering:graphite_electrode"
+						tag: {
+							graphDmg: 0
+						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6114EBC6E999C3B6"
+					type: "checkmark"
+				}
+			]
 			x: 2.5d
 			y: 3.0d
 		}
@@ -526,22 +546,36 @@
 		{
 			dependencies: ["131C8934AF505AF9"]
 			id: "0D8228C3F33E2657"
-			tasks: [{
-				id: "48D02E5B46642F80"
-				item: "immersiveengineering:plantoil_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48D02E5B46642F80"
+					item: "immersiveengineering:plantoil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75F80DAFED82DC9D"
+					type: "checkmark"
+				}
+			]
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7F92CA93711E7EA7"]
 			id: "0773AED7CD9BDD50"
-			tasks: [{
-				id: "7CB71F394277DD19"
-				item: "immersiveengineering:ethanol_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7CB71F394277DD19"
+					item: "immersiveengineering:ethanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4BCE2E2803699C93"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 4.0d
 		}
@@ -640,11 +674,18 @@
 				"0D8228C3F33E2657"
 			]
 			id: "03868A6ACABE51CD"
-			tasks: [{
-				id: "2FA0C6A668102208"
-				item: "immersiveengineering:biodiesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FA0C6A668102208"
+					item: "immersiveengineering:biodiesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30D0364D68A2BF3D"
+					type: "checkmark"
+				}
+			]
 			x: -0.5d
 			y: 4.0d
 		}
@@ -822,11 +863,18 @@
 			dependencies: ["446143E642B2FC50"]
 			id: "5B121665E90ED05F"
 			subtitle: "This will get you to the moon!"
-			tasks: [{
-				id: "1D4582F216A96CC3"
-				item: "ad_astra:fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D4582F216A96CC3"
+					item: "ad_astra:fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50BA1F0B81E76E2E"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 5.0d
 		}
@@ -842,6 +890,25 @@
 			title: "A faster way to produce steel"
 			x: -3.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0F10FF0F17B1D2E2"]
+			description: ["When using the schematic make sure it is in the off hand for it to actually work."]
+			id: "43AE443C8A9DC471"
+			rewards: [{
+				count: 8
+				id: "49E8BF4FC54A123F"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "READ ME!"
+			tasks: [{
+				id: "15AC42CEE2D6ADE3"
+				item: "engineered_schematics:schematic_table_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
 		}
 	]
 	title: "&#FFFFFFI&#FFF8FBm&#FFF1F7m&#FFEAF3e&#FFE4EFr&#FFDDEBs&#FFD6E7i&#FFCFE3v&#FFC8DFe &#FFBBD7E&#FFB4D2n&#FFADCEg&#FFA6CAi&#FF9FC6n&#FF98C2e&#FF91BEe&#FF8BBAr&#FF84B6i&#FF7DB2n&#FF76AEg"

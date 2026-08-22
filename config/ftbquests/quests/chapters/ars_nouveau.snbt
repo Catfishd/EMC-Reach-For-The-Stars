@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: "35D43C6C8273A04E"
+	group: "2A747ED7DBA569C8"
 	id: "6BEA3DAA1E87510E"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [ ]
 	title: "Ars Nouveau?"

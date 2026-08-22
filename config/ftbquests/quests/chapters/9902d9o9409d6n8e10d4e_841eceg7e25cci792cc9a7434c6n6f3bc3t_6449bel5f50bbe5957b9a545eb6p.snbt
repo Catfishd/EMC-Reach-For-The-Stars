@@ -63,6 +63,7 @@
 				"73F72B2AB730A16F"
 				"7671F464DDC40287"
 			]
+			description: ["You may need a bigger one eventually"]
 			id: "1BAFAE9F0F65E3BC"
 			tasks: [
 				{
@@ -88,6 +89,7 @@
 					type: "item"
 				}
 			]
+			title: "3x3 Chamber"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -125,7 +127,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1BAFAE9F0F65E3BC"]
+			dependencies: [
+				"1BAFAE9F0F65E3BC"
+				"5E13DFB0EDED33FD"
+			]
 			id: "341D01C4BD53B85B"
 			tasks: [{
 				id: "7A7C3E50A208084F"
@@ -174,26 +179,36 @@
 			y: -6.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["4C1221F3AD7DD2F6"]
-			description: ["Waiting on info on how to add to the resource capsules mod :P"]
-			id: "180750A4F03500A7"
-			rewards: [{
-				count: 128
-				id: "490D810F366AD887"
-				item: "kubejs:earth_shard"
-				type: "item"
-			}]
-			subtitle: "This is here for PLAYTEST"
+			id: "5E13DFB0EDED33FD"
+			rewards: [
+				{
+					id: "71704538AFCE5AF2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3902BFD741D00B9C"
+					item: "minecraft:ice"
+					type: "item"
+				}
+			]
 			tasks: [{
-				consume_items: true
-				id: "02C2350BE40D79A3"
-				item: "kubejs:earth_core"
+				id: "15E822F09CCD9FC0"
+				item: "ae2:entropy_manipulator"
 				type: "item"
 			}]
-			title: "Temporary Quest"
-			x: -1.0d
-			y: -5.5d
+			x: 1.5d
+			y: -4.0d
 		}
 	]
 	title: "&#FFFFFFO&#F6F6F6n&#EDEDEDe &#DADADAG&#D1D1D1i&#C8C8C8a&#BFBFBFn&#B6B6B6t &#A3A3A3L&#9A9A9Ae&#919191a&#888888p"
