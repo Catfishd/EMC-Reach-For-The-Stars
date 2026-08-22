@@ -19,6 +19,7 @@
 #058353 minecraft:cobblestone
 #7331AC minecraft:cobblestone_slab
 #3D8BFC minecraft:cobblestone_stairs
+#4BA15D projecte:condenser_mk1
 #116FF5 minecraft:cracked_polished_blackstone_bricks
 #8C5E34 tconstruct:crafting_station
 #07F841 pneumaticcraft:creative_compressor

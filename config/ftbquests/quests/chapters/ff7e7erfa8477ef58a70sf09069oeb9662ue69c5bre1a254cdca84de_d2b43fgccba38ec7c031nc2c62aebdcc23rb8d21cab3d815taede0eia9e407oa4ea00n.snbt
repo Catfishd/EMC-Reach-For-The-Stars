@@ -55,6 +55,7 @@
 		{
 			dependencies: ["28DA36D1505B9EFF"]
 			id: "0B03B5CFC40DBD74"
+			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "5CE712220724BA06"
 				item: "kubejs:earth_ingot"
@@ -176,6 +177,7 @@
 		{
 			dependencies: ["66D047417E090D57"]
 			id: "7B6B9572DEE72089"
+			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "199159C9E0B53BFF"
 				item: "kubejs:moon_ingot"
