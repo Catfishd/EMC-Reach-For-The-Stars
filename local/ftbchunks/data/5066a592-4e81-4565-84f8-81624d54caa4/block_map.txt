@@ -4,6 +4,7 @@
 #745C0D mekanism:basic_fluid_tank
 #1D5855 mekanism:basic_universal_cable
 #3DE8FE minecraft:birch_leaves
+#3BA928 minecraft:birch_log
 #A68AEF minecraft:blue_stained_glass
 #9106BE minecraft:blue_stained_glass_pane
 #0DF28E antiblocksrechiseled:bright_green
@@ -11,6 +12,7 @@
 #F3C652 pneumaticcraft:charging_station
 #76FDF5 minecraft:cherry_leaves
 #F522F4 minecraft:chest
+#9499B8 colossalchests:chest_wall_wood
 #189A0B ad_astra:chiseled_moon_stone_bricks
 #7FDE54 minecraft:clay
 #FE4F0A minecraft:coarse_dirt
@@ -99,6 +101,7 @@
 #F428EC immersiveengineering:steel_scaffolding_standard
 #B21185 minecraft:stone_brick_slab
 #5CF3F1 minecraft:sugar_cane
+#C79CAD toms_storage:ts.crafting_terminal
 #B5D07E minecraft:white_stained_glass
 #49E28F minecraft:white_stained_glass_pane
 #DBA41E minecraft:white_wall_banner
