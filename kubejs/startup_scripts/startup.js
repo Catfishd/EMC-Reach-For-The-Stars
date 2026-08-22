@@ -16,11 +16,6 @@ StartupEvents.registry('item', event => {
     event.create('venus_ingot').displayName('Venus Ingot').texture('kubejs:item/temp')
     event.create('mercury_ingot').displayName('Mercury Ingot').texture('kubejs:item/temp')
     event.create('glacio_ingot').displayName('Glacio Ingot').texture('kubejs:item/temp')
-
-    // Rocket Parts (BULLSHIT)
-    event.create('t1_rocket_part_1').displayName('T1 Rocket Part 1').texture('kubejs:item/temp')
-    event.create('t1_rocket_part_2').displayName('T1 Rocket Part 2').texture('kubejs:item/temp')
-    event.create('t1_rocket_part_3').displayName('T1 Rocket Part 3').texture('kubejs:item/temp')
     
     // General Additions
     event.create('iron_flux_coil').displayName('Iron Flux Coil').texture('kubejs:item/iron_flux_coil')

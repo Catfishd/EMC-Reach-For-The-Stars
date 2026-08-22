@@ -85,4 +85,28 @@ ServerEvents.recipes((event) => {
     pressure: 4.5,
     results: [Item.of("kubejs:earth_core", 1)],
   });
+
+  // Tier 2
+  event.custom({
+    type: "pneumaticcraft:pressure_chamber",
+    inputs: [
+      {
+        type: "pneumaticcraft:stacked_item",
+        item: "ad_astra:moon_globe",
+        count: 1,
+      },
+      {
+        type: "pneumaticcraft:stacked_item",
+        item: "ad_astra:desh_block",
+        count: 16,
+      },
+      {
+        type: "pneumaticcraft:stacked_item",
+        item: "ad_astra:cheese",
+        count: 32,
+      }
+    ],
+    pressure: 4.0,
+    results: [Item.of("kubejs:moon_core", 1)],
+  });
 });

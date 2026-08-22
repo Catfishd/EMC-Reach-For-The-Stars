@@ -1,5 +1,11 @@
 ServerEvents.recipes(event =>{
-
+	// remove waystones
+	event.remove('waystones:waystone')
+	event.remove('waystones:mossy_waystone')
+	event.remove('waystones:sandy_waystone')
+	event.remove('waystones:deepslate_waystone')
+	event.remove('waystones:blackstone_waystone')
+	event.remove('waystones:end_stone_waystone')
 	
 	// remove sieves
 	event.remove('exdeorum:archwood_sieve')
