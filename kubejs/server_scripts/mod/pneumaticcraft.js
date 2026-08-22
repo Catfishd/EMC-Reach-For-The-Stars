@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
         count: 64,
       },
     ],
-    pressure: 4.0,
+    pressure: 3.0,
     results: [Item.of("kubejs:earth_element", 1)],
   });
   event.custom({
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
         count: 1,
       },
     ],
-    pressure: 4.0,
+    pressure: 4.5,
     results: [Item.of("kubejs:earth_core", 1)],
   });
 });
