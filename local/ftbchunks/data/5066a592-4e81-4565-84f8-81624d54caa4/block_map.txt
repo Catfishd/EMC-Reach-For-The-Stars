@@ -10,6 +10,7 @@
 #FC842A minecraft:campfire
 #F3C652 pneumaticcraft:charging_station
 #76FDF5 minecraft:cherry_leaves
+#F522F4 minecraft:chest
 #189A0B ad_astra:chiseled_moon_stone_bricks
 #7FDE54 minecraft:clay
 #FE4F0A minecraft:coarse_dirt
@@ -18,6 +19,7 @@
 #3D8BFC minecraft:cobblestone_stairs
 #116FF5 minecraft:cracked_polished_blackstone_bricks
 #8C5E34 tconstruct:crafting_station
+#07F841 pneumaticcraft:creative_compressor
 #DFC019 mekanism:creative_energy_cube
 #B2A2E1 minecraft:dandelion
 #80497A minecraft:dirt
@@ -38,6 +40,7 @@
 #B6A923 immersiveengineering:heavy_engineering
 #1A0827 minecraft:hopper
 #52D27E minecraft:ice
+#79904E pipez:item_pipe
 #C1E251 minecraft:jungle_leaves
 #3CAD79 minecraft:lantern
 #FB9B92 ad_astra:launch_pad

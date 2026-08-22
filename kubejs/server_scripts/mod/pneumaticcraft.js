@@ -11,12 +11,12 @@ ServerEvents.recipes((event) => {
       {
         type: "pneumaticcraft:stacked_item",
         item: "minecraft:dirt",
-        count: 16,
+        count: 64,
       },
       {
         type: "pneumaticcraft:stacked_item",
         item: "minecraft:stone",
-        count: 16,
+        count: 64,
       },
     ],
     pressure: 4.0,
@@ -39,11 +39,11 @@ ServerEvents.recipes((event) => {
     inputs: [
       {
         type: "pneumaticcraft:stacked_item",
-        item: "minecraft:ice",
+        item: "minecraft:blue_ice",
         count: 64,
       },
     ],
-    pressure: 4.0,
+    pressure: 3.0,
     results: [Item.of("kubejs:water_element", 1)],
   });
   event.custom({
@@ -52,10 +52,10 @@ ServerEvents.recipes((event) => {
       {
         type: "pneumaticcraft:stacked_item",
         item: "minecraft:oak_sapling",
-        count: 256,
+        count: 64,
       },
     ],
-    pressure: 4.0,
+    pressure: 3.0,
     results: [Item.of("kubejs:air_element", 1)],
   });
   event.custom({
