@@ -7,6 +7,41 @@
 	id: "45DCB7285FADC741"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: "minecraft:chest"
+			id: "12DD317A3651330B"
+			rewards: [{
+				id: "07DAAA79DF0FC838"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39AC0161628FA529"
+					item: "colossalchests:chest_wall_wood"
+					type: "item"
+				}
+				{
+					id: "7ED1EB970EC194F1"
+					item: "colossalchests:colossal_chest_wood"
+					type: "item"
+				}
+			]
+			title: "Colossal Chests!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "593D2788C5CD142A"
+			tasks: [{
+				id: "294D7DB7955A2E0E"
+				title: "More will be added to this page eventually"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	title: "&#7B5FFFE&#7C62F8a&#7D64F1r&#7E67EBl&#7F6AE4y &#816FD6g&#8272D0a&#8374C9m&#8477C2e &#867CB5s&#877FAEt&#8881A7o&#8984A0r&#8A879Aa&#8B8993g&#8C8C8Ce"
 }
