@@ -13,11 +13,6 @@ ServerEvents.recipes((event) => {
         item: "minecraft:dirt",
         count: 64,
       },
-      {
-        type: "pneumaticcraft:stacked_item",
-        item: "minecraft:stone",
-        count: 64,
-      },
     ],
     pressure: 3.0,
     results: [Item.of("kubejs:earth_element", 1)],
