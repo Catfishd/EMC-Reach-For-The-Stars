@@ -1,4 +1,14 @@
 ServerEvents.recipes(event =>{
+	// wipe all Ex Deorum sieving recipes (empties the JEI Sieve categories)
+    event.remove({ type: 'exdeorum:sieve' })
+    event.remove({ type: 'exdeorum:compressed_sieve' })
+    // meshes are useless without a sieve
+    event.remove({ output: '#exdeorum:sieve_meshes' })
+    // ore chunks were sieve-only drops (Create Sifter drops nuggets instead),
+    // so remove the dead chunk -> ingot smelting/blasting recipes
+    event.remove({ input: '#exdeorum:ore_chunks' })
+    event.remove({ output: '#exdeorum:ore_chunks' })
+	
 	// remove waystones
 	event.remove('waystones:waystone')
 	event.remove('waystones:mossy_waystone')
