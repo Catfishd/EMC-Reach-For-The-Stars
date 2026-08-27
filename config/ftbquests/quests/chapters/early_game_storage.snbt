@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["593D2788C5CD142A"]
 			icon: "minecraft:chest"
 			id: "12DD317A3651330B"
 			rewards: [{

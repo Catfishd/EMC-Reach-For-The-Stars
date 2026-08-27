@@ -881,7 +881,6 @@
 		{
 			dependencies: ["6907E1A0E6069538"]
 			id: "3121F0F09BB2E00E"
-			subtitle: "TODO"
 			tasks: [{
 				id: "4499B2458ECA9E98"
 				item: "ad_astra:etrionic_blast_furnace"

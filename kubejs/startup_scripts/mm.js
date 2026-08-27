@@ -6,4 +6,9 @@ MMEvents.registerControllers(event => {
     event.create('t1_rocket_assembly_controller')
     .type('mm:machine')
     .name('T1 Rocket Assembly Controller')
+
+    event.create('t2_rocket_assembly_controller')
+    .type('mm:machine')
+    .name('T2 Rocket Assembly Controller')
+
 })

@@ -99,7 +99,7 @@ ServerEvents.recipes((event) => {
         type: "pneumaticcraft:stacked_item",
         item: "ad_astra:cheese",
         count: 32,
-      }
+      },
     ],
     pressure: 4.0,
     results: [Item.of("kubejs:moon_core", 1)],

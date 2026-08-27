@@ -3,9 +3,216 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "2A747ED7DBA569C8"
+	icon: {
+		Count: 1
+		id: "ars_nouveau:arcanist_hood"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "6BEA3DAA1E87510E"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "Ars Nouveau?"
+	quests: [
+		{
+			description: ["The Ars Nouveau chapter is not complete."]
+			id: "51AE40A7B711A1DC"
+			rewards: [
+				{
+					count: 4
+					id: "7180A1B48DD8E977"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "558E0E60845E0919"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6DDDC75BD1621434"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A659E6BEE34414C"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Currently very basic"
+			tasks: [{
+				id: "1F450B9CED6A72F0"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "786B269B887D7915"
+			tasks: [{
+				id: "5E73DAECD5C60971"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["229EDE6F7A42DAF1"]
+			id: "70811542585D7DD9"
+			tasks: [{
+				id: "13CA91F8F6839A0B"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["229EDE6F7A42DAF1"]
+			id: "349B05F2A11C676E"
+			tasks: [{
+				id: "5669FAB480540445"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "51060A54F1C94562"
+			tasks: [{
+				id: "6F5F5BF88F740970"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "6715FEE22AE4ECED"
+			tasks: [{
+				id: "08F0370A8E818104"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "76669BA50CF97BDE"
+			tasks: [{
+				id: "251DACFC916E8672"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "1AA0E560AAEB0F3A"
+			tasks: [{
+				id: "59960367BE473183"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "42F69252FDFD3A9F"
+			tasks: [{
+				id: "682156456E772CA3"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"43713E33A9DAD502"
+				"179293D59589DAD0"
+				"525622430CDC7239"
+			]
+			id: "2205C71D1400EBB2"
+			tasks: [{
+				id: "53475FCF0B4EE82B"
+				item: "kubejs:earth_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51AE40A7B711A1DC"]
+			id: "43713E33A9DAD502"
+			tasks: [{
+				id: "60E6B35FE0FE3217"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51AE40A7B711A1DC"]
+			id: "179293D59589DAD0"
+			tasks: [{
+				id: "069BAA7C07FDBA1D"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51AE40A7B711A1DC"]
+			id: "525622430CDC7239"
+			tasks: [{
+				id: "2E4CF56E06A59E87"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "229EDE6F7A42DAF1"
+			tasks: [
+				{
+					count: 4L
+					id: "57F36C077B58FCB2"
+					item: { Count: 4, id: "ars_nouveau:blue_archwood_log" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7A5FFD7EC12C750D"
+					item: { Count: 4, id: "ars_nouveau:red_archwood_log" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5609B85961E58464"
+					item: { Count: 4, id: "ars_nouveau:purple_archwood_log" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E2A1A648FCC8A29"
+					item: { Count: 4, id: "ars_nouveau:green_archwood_log" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: "&#E43A96A&#DA34A1r&#D02EABs &#BC23C0N&#B21DCBo&#A817D5u&#9E11E0v&#940CEAe&#8A06F5a&#8000FFu"
 }
