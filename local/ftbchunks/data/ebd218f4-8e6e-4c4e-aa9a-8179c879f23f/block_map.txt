@@ -80,6 +80,7 @@
 #CFE6E6 minecraft:red_stained_glass
 #858D27 minecraft:red_stained_glass_pane
 #3B2BA1 resource_capsules:resource_gen_tier_5
+#3B2BA2 resource_capsules:resource_gen_tier_6
 #A6B33E minecraft:soul_soil
 #1D749F ars_nouveau:source_gem_block
 #82E150 ars_nouveau:sourcestone

@@ -46,11 +46,23 @@
 			dependencies: ["31FDF414770F0D53"]
 			icon: "kubejs:mars_core"
 			id: "36E76325D5A079B6"
-			rewards: [{
-				id: "53D952018E4F11CF"
-				item: "waystones:waystone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53D952018E4F11CF"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "3448ED5192C597D0"
+					item: "resource_capsules:stellar_odyssey_music_disc"
+					type: "item"
+				}
+				{
+					id: "256103D11D226B9E"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+			]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "24BACE71CA239631"

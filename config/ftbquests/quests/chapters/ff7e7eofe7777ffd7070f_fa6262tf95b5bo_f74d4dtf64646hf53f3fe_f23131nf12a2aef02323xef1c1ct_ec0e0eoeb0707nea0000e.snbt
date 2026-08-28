@@ -4,6 +4,14 @@
 	filename: "ff7e7eofe7777ffd7070f_fa6262tf95b5bo_f74d4dtf64646hf53f3fe_f23131nf12a2aef02323xef1c1ct_ec0e0eoeb0707nea0000e"
 	group: "2A747ED7DBA569C8"
 	id: "7BE3D50404F77A04"
+	images: [{
+		height: 5.0d
+		image: "kubejs:item/cores/mars_core"
+		rotation: 0.0d
+		width: 5.0d
+		x: -0.5d
+		y: -1.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
