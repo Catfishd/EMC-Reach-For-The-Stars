@@ -1,5 +1,6 @@
 #52B53D minecraft:air
 #BD3E81 ars_nouveau:arcane_pedestal
+#B7BA72 ars_nouveau:arcane_platform
 #8CAC81 pneumaticcraft:assembly_controller
 #3471AE pneumaticcraft:assembly_drill
 #80C19B pneumaticcraft:assembly_io_unit_export
@@ -11,6 +12,7 @@
 #3DE8FE minecraft:birch_leaves
 #A68AEF minecraft:blue_stained_glass
 #9106BE minecraft:blue_stained_glass_pane
+#0DF28E antiblocksrechiseled:bright_green
 #FC842A minecraft:campfire
 #76FDF5 minecraft:cherry_leaves
 #F522F4 minecraft:chest
@@ -25,10 +27,14 @@
 #8C5E34 tconstruct:crafting_station
 #07F841 pneumaticcraft:creative_compressor
 #B2A2E1 minecraft:dandelion
+#78072F ad_astra:desh_block
+#75567E ad_astra:desh_pillar
 #80497A minecraft:dirt
 #DD8A11 rechiseled:dirt_muddy
 #4FA7D0 minecraft:dirt_path
+#93C567 pneumaticcraft:etching_tank
 #2F436F minecraft:glass
+#F2A874 ad_astra:glowing_desh_pillar
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
 #4480E5 create:gray_seat
@@ -68,11 +74,15 @@
 #A5528E ad_astra:polished_moon_stone_slab
 #AFAC0D minecraft:poppy
 #6DC9E1 minecraft:potted_cactus
+#4E2A71 pneumaticcraft:pressure_chamber_wall
 #38E01C minecraft:purple_stained_glass_pane
 #7EFF77 create:red_seat
 #CFE6E6 minecraft:red_stained_glass
 #858D27 minecraft:red_stained_glass_pane
+#3B2BA1 resource_capsules:resource_gen_tier_5
 #A6B33E minecraft:soul_soil
+#1D749F ars_nouveau:source_gem_block
+#82E150 ars_nouveau:sourcestone
 #13F5AC minecraft:spruce_leaves
 #6A8B3A minecraft:spruce_log
 #64F88A minecraft:spruce_slab
@@ -80,6 +90,7 @@
 #B1D22B minecraft:spruce_trapdoor
 #B21185 minecraft:stone_brick_slab
 #5CF3F1 minecraft:sugar_cane
+#ACEAAB mm:t2_rocket_assembly_controller
 #D060C9 colossalchests:uncolossal_chest
 #B5D07E minecraft:white_stained_glass
 #49E28F minecraft:white_stained_glass_pane

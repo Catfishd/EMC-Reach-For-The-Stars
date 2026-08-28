@@ -104,4 +104,17 @@ ServerEvents.recipes((event) => {
     pressure: 4.0,
     results: [Item.of("kubejs:moon_core", 1)],
   });
+  event.custom({
+    type: "pneumaticcraft:assembly_laser",
+    input: {
+      type: "pneumaticcraft:stacked_item",
+      item: "kubejs:moon_shard",
+      count: 32,
+    },
+    program: "laser",
+    result: {
+      item: "kubejs:moon_ingot",
+      count: 1,
+    },
+  })
 });
