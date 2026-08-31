@@ -306,6 +306,11 @@
 					item: "minecraft:bone_meal"
 					type: "item"
 				}
+				{
+					id: "7B831C92C345E7A5"
+					item: "thermal:silver_nugget"
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: -1.0d

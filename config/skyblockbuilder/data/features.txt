@@ -65,6 +65,11 @@ create:striated_ores_overworld
 create:zinc_ore
 create_new_age:magnetite_block
 create_new_age:thorium_ore
+draconicevolution:chaos_island
+draconicevolution:end_comet
+draconicevolution:end_draconium_ore
+draconicevolution:nether_draconium_ore
+draconicevolution:overworld_draconium_ore
 immersiveengineering:bauxite
 immersiveengineering:deep_nickel
 immersiveengineering:lead

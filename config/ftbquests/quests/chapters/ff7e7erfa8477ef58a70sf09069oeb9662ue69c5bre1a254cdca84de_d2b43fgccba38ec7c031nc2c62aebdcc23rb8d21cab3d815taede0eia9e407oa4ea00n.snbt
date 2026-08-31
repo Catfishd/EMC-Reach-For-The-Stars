@@ -82,7 +82,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -104,7 +104,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -126,7 +126,7 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
@@ -247,7 +247,7 @@
 				item: "immersiveengineering:ingot_aluminum"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -293,6 +293,17 @@
 			}]
 			x: 0.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["28DA36D1505B9EFF"]
+			id: "1D1CF1241CFE8111"
+			tasks: [{
+				id: "690B76E8E71719FE"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
 		}
 	]
 	title: "&#00B2F8R&#03B2EAe&#07B2DCs&#0AB1CFo&#0DB1C1u&#10B1B3r&#14B1A5c&#17B098e &#1EB07CG&#21B06Ee&#24B060n&#27AF53e&#2BAF45r&#2EAF37a&#31AF29t&#34AE1Ci&#38AE0Eo&#3BAE00n"

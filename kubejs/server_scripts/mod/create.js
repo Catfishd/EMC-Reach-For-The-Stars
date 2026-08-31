@@ -45,6 +45,7 @@ ServerEvents.recipes((event) => {
       Item.of("minecraft:redstone").withChance(0.15),
       Item.of("minecraft:glowstone_dust").withChance(0.15),
       Item.of("minecraft:bone_meal").withChance(0.2),
+      Item.of("thermal:silver_nugget").withChance(0.1),
     ],
     ["minecraft:sand", "createsifter:andesite_mesh"],
   );

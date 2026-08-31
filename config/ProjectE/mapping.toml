@@ -341,3 +341,7 @@
 		#ProjectE-Integration Recipe Mapper for Applied Energistics Inscriber Mapper. Required Mods: [ae2]
 		enabled = true
 
+	[CraftingMapper.DraconicEvolutionFusionMapper]
+		#ProjectE-Integration Recipe Mapper for Draconic Evolution Fusion Mapper. Required Mods: [draconicevolution]
+		enabled = true
+

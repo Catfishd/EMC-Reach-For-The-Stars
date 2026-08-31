@@ -3,9 +3,20 @@
 	default_quest_shape: ""
 	filename: "ea0000mf12a2aaf85454rff7e7es"
 	group: "1AF14BB13C8874E2"
+	icon: "kubejs:mars_core"
 	id: "279B5F8DF1CB6087"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "34F112811B778101"
+		tasks: [{
+			dimension: "ad_astra:mars"
+			id: "689B25E668C6BA03"
+			title: "MARS"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "&#EA0000M&#F12A2Aa&#F85454r&#FF7E7Es"
 }
