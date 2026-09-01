@@ -258,7 +258,7 @@
 				item: "thermal:tin_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 5.5d
 		}
 		{
@@ -269,7 +269,7 @@
 				item: "immersiveengineering:ingot_uranium"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 5.5d
 		}
 		{
@@ -280,7 +280,7 @@
 				item: "thermal:nickel_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 5.5d
 		}
 		{
@@ -291,7 +291,7 @@
 				item: "thermal:silver_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 5.5d
 		}
 		{
@@ -304,6 +304,17 @@
 			}]
 			x: 2.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["66D047417E090D57"]
+			id: "5F30F9E388559AAD"
+			tasks: [{
+				id: "4C30A4AEBE18FAAA"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
 		}
 	]
 	title: "&#00B2F8R&#03B2EAe&#07B2DCs&#0AB1CFo&#0DB1C1u&#10B1B3r&#14B1A5c&#17B098e &#1EB07CG&#21B06Ee&#24B060n&#27AF53e&#2BAF45r&#2EAF37a&#31AF29t&#34AE1Ci&#38AE0Eo&#3BAE00n"

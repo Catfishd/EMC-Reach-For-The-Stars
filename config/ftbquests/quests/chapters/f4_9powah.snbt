@@ -490,17 +490,6 @@
 		}
 		{
 			dependencies: ["40B68ABDED4E2A57"]
-			id: "675182A1F5010B43"
-			tasks: [{
-				id: "4FFBC5676738ABCC"
-				item: "ae2:certus_quartz_dust"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["40B68ABDED4E2A57"]
 			id: "43E30D5315F9EE5E"
 			tasks: [{
 				id: "61E2F489560B378A"
@@ -508,7 +497,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["40B68ABDED4E2A57"]
@@ -542,6 +531,28 @@
 			}]
 			x: -3.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["40B68ABDED4E2A57"]
+			id: "643E61BEAFAD2D39"
+			tasks: [{
+				id: "26B1D7824051141F"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["40B68ABDED4E2A57"]
+			id: "0EA63B26EDF2246E"
+			tasks: [{
+				id: "1EF772BF7B30F26A"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
 		}
 	]
 	title: "&#EAC700P&#EFB700O&#F5A700W&#FA9600A&#FF8600H"

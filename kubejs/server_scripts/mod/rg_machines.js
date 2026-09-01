@@ -12,4 +12,9 @@ ServerEvents.recipes((event) => {
         C: 'ad_astra:cheese_block'
     })
     event.remove('resource_capsules:resource_gen_tier_3')
+    event.shaped('resource_capsules:resource_gen_tier_3', ['ABA', 'BCB', 'ABA'], {
+        A: 'ad_astra:ostrum_block',
+        B: 'ad_astra:glowing_ostrum_pillar',
+        C: 'resource_capsules:resource_gen_tier_2'
+    })
 })

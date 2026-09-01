@@ -79,4 +79,38 @@ ServerEvents.recipes((event) => {
       item: "kubejs:moon_shard",
     },
   });
+  // MARS SHARD RECIPES
+  event.shaped(Item.of("powah:uraninite"), ["SSS", "   ", "   "], {
+    S: "kubejs:mars_shard",
+  });
+  event.shaped(Item.of("minecraft:netherite_scrap"), ["SSS", "SSS", "SSS"], {
+    S: "kubejs:mars_shard",
+  });
+  event.shaped(Item.of("ae2:fluix_crystal"), ["SSS", "S  ", "   "], {
+    S: "kubejs:mars_shard",
+  });
+  event.shaped(Item.of("ae2:certus_quartz_crystal"), ["S S", " S ", "S S"], {
+    S: "kubejs:mars_shard",
+  });
+  event.shaped(Item.of('minecraft:amethyst_shard'), ["S S", "S S", "S S"], {
+    S: "kubejs:mars_shard",
+  });
+  event.shaped(Item.of('ad_astra:ostrum_ingot'), ["SSS", " S ", "   "], {
+    S: "kubejs:mars_shard",
+  });
+  event.shaped(Item.of('ae2:sky_dust'), ["S  ", "   ", "   "], {
+    S: "kubejs:mars_shard",
+  });
+  event.custom({
+    type: "resource_capsules:resource_gen_tier_3",
+    ingredients: [
+      {
+        item: "kubejs:mars_core",
+      },
+    ],
+    result: {
+      count: 1,
+      item: "kubejs:mars_shard",
+    },
+  });
 });
