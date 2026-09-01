@@ -8,6 +8,8 @@ ServerEvents.recipes(event =>{
     // so remove the dead chunk -> ingot smelting/blasting recipes
     event.remove({ input: '#exdeorum:ore_chunks' })
     event.remove({ output: '#exdeorum:ore_chunks' })
+
+	event.remove({ output: ''})
 	
 	// remove waystones
 	event.remove('waystones:waystone')

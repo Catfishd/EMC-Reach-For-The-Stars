@@ -20,6 +20,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["34F112811B778101"]
 			id: "7BC586533B42562E"
 			tasks: [{
 				count: 16L
@@ -27,10 +28,11 @@
 				item: { Count: 16, id: "ad_astra:raw_ostrum" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["7BC586533B42562E"]
 			id: "1326898EEF99EDB4"
 			tasks: [{
 				count: 16L
@@ -38,10 +40,11 @@
 				item: { Count: 16, id: "ad_astra:ostrum_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["34F112811B778101"]
 			id: "146FE43D3DD2F004"
 			tasks: [{
 				id: "480AC20B3F13557A"
@@ -52,6 +55,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["146FE43D3DD2F004"]
 			id: "2173B557C551FEAF"
 			tasks: [
 				{
@@ -87,8 +91,57 @@
 					item: "mm:desh_energy_port_input"
 					type: "item"
 				}
+				{
+					id: "5A3C04B815DDF772"
+					item: "mm:desh_drill_controller"
+					type: "item"
+				}
 			]
 			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34F112811B778101"]
+			id: "3A404916166BF6CD"
+			tasks: [{
+				id: "34A8D956E6167D64"
+				item: "kubejs:mars_clay"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A404916166BF6CD"]
+			id: "2D54A220D5E06F0C"
+			tasks: [{
+				id: "69A3A3C49B394EF8"
+				title: "Go to the \"POWAH\" chapter"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2173B557C551FEAF"]
+			id: "71EC8415820A3807"
+			tasks: [{
+				id: "4E8BDFF8FBD586D0"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1326898EEF99EDB4"]
+			id: "3FD2B4A9469A2708"
+			tasks: [{
+				id: "458ABBC76B6C2706"
+				item: "resource_capsules:resource_gen_tier_3"
+				type: "item"
+			}]
+			x: 3.0d
 			y: 0.0d
 		}
 	]

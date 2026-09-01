@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "35D43C6C8273A04E"
+	id: "05590C18C8013735"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Botania"
+}

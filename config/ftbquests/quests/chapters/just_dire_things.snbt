@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_dire_things"
+	group: "3E6AC98947BE91E7"
+	id: "71BBF355231AF2E8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Just Dire Things"
+}

@@ -17,6 +17,11 @@
 	quests: [
 		{
 			id: "2F5B8C54E72D691A"
+			rewards: [{
+				id: "6E3AC5CACE7E955A"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22F8D1637634592E"
 				type: "checkmark"

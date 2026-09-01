@@ -5,4 +5,5 @@ ServerEvents.recipes((event) => {
         B: 'kubejs:mars_clay',
         C: 'minecraft:lava_bucket'
     })
+    event.recipes.powah.energizing(['ad_astra:mars_globe', Item.of('powah:niotic_crystal_block', 3)], 'kubejs:mars_core', 10000000)
 })
