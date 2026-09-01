@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>{
     event.remove({ input: '#exdeorum:ore_chunks' })
     event.remove({ output: '#exdeorum:ore_chunks' })
 
-	event.remove({ output: ''})
+	event.remove({ output: 'projecte:watch_of_flowing_time'})
 	
 	// remove waystones
 	event.remove('waystones:waystone')
