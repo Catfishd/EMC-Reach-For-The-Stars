@@ -117,7 +117,7 @@ ServerEvents.recipes((event) => {
       count: 1,
     },
   })
-  // STEEL DRILL FLUID
+  // DRILL FLUID
   event.custom({
     type: "pneumaticcraft:thermo_plant",
     exothermic: false,
@@ -132,12 +132,30 @@ ServerEvents.recipes((event) => {
       amount: 500,
     },
     item_input: {
-      tag: "#minecraft:coals"
+      tag: "minecraft:coals"
     },
     temperature: {
-      type: "pneumaticcraft:temperature",
-      min: 0,
-      max: 1000
+      min_temp: 373
+    }
+  })
+  event.custom({
+    type: "pneumaticcraft:thermo_plant",
+    exothermic: false,
+    fluid_input: {
+      type: "pneumaticcraft:fluid",
+      fluid: "kubejs:steel_drill_fluid",
+      amount: 1000,
+    },
+    fluid_output: {
+      type: "pneumaticcraft:fluid",
+      fluid: "kubejs:desh_drill_fluid",
+      amount: 500,
+    },
+    item_input: {
+      item: "ad_astra:desh_block"
+    },
+    temperature: {
+      min_temp: 373
     }
   })
 });

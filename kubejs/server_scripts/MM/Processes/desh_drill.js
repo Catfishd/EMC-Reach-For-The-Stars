@@ -1,13 +1,13 @@
 MMEvents.createProcesses((event) => {
   event
-    .create("mm:steel_drill_process")
-    .structureId("mm:steel_drill_structure")
+    .create("mm:desh_drill_process")
+    .structureId("mm:desh_drill_structure")
     .ticks(500)
     .input({
       type: "mm:input/consume",
       ingredient: {
         type: "mm:fluid",
-        fluid: "kubejs:steel_drill_fluid",
+        fluid: "kubejs:desh_drill_fluid",
         amount: 1000,
       },
     })
@@ -17,6 +17,6 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: "mm:output/simple",
-      ingredient: { type: "mm:item", item: "ad_astra:moon_globe", count: 1 },
+      ingredient: { type: "mm:item", item: "ad_astra:mars_globe", count: 1 },
     });
 });

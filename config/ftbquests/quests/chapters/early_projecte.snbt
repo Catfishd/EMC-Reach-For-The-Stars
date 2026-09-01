@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_projecte"
+	group: "78F30980440602A3"
+	id: "1F929529B5D618E2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Early Project-E"
+}

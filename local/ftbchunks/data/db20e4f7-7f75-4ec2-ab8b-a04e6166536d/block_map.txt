@@ -14,11 +14,14 @@
 #EFD16B ad_astra:conglomerate
 #116FF5 minecraft:cracked_polished_blackstone_bricks
 #8C5E34 tconstruct:crafting_station
+#DFC019 mekanism:creative_energy_cube
+#6B35EC mekanism:creative_fluid_tank
 #B2A2E1 minecraft:dandelion
 #78072F ad_astra:desh_block
 #F2BA47 kubejs:desh_drill_fluid
 #DD8A11 rechiseled:dirt_muddy
 #4FA7D0 minecraft:dirt_path
+#A86BF7 pipez:fluid_pipe
 #2F436F minecraft:glass
 #F2A874 ad_astra:glowing_desh_pillar
 #3F84B7 minecraft:grass_block
