@@ -18,6 +18,7 @@
 #78072F ad_astra:desh_block
 #DD8A11 rechiseled:dirt_muddy
 #4FA7D0 minecraft:dirt_path
+#2F436F minecraft:glass
 #F2A874 ad_astra:glowing_desh_pillar
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
@@ -64,6 +65,7 @@
 #7EFF77 create:red_seat
 #CFE6E6 minecraft:red_stained_glass
 #858D27 minecraft:red_stained_glass_pane
+#079D5C immersiveengineering:sheetmetal_steel
 #872D76 minecraft:snow
 #12E6C4 minecraft:snow_block
 #82E150 ars_nouveau:sourcestone
@@ -72,6 +74,8 @@
 #64F88A minecraft:spruce_slab
 #D9135A minecraft:spruce_stairs
 #B1D22B minecraft:spruce_trapdoor
+#129062 thermal:steel_block
+#F428EC immersiveengineering:steel_scaffolding_standard
 #B21185 minecraft:stone_brick_slab
 #5CF3F1 minecraft:sugar_cane
 #B5D07E minecraft:white_stained_glass

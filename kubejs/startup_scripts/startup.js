@@ -1,4 +1,7 @@
 StartupEvents.registry('item', event => {
+    // Fodder
+    event.create('mars_clay').displayName('Mars Clay').texture('kubejs:item/temp')
+
     // Icons
     event.create('rfts_icon').displayName('Reach For The Stars Icon').texture('kubejs:item/rfts')
     event.create('exclemation_mark').displayName('Exclemation Mark').texture('kubejs:item/exclamation_mark')

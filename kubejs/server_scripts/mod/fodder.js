@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+    // TSS
     event.remove({output: "toms_storage:ts.inventory_connector"})
     event.shaped(Item.of("toms_storage:ts.inventory_connector", 1), ["ABA", "DCD", "ABA"], {
         A: "#minecraft:planks",
@@ -14,4 +15,9 @@ ServerEvents.recipes((event) => {
         D: 'toms_storage:ts.inventory_cable',
         E: 'minecraft:redstone'
     });
+    // Random Progression items
+    event.shaped(Item.of('kubejs:mars_clay', 4), ['AB ', 'BA ', '   '], {
+        A: "minecraft:clay",
+        B: "ad_astra:mars_sand"
+    });      
 })

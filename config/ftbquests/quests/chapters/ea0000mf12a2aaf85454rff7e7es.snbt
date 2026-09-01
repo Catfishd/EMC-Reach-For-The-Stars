@@ -7,16 +7,66 @@
 	id: "279B5F8DF1CB6087"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "34F112811B778101"
-		tasks: [{
-			dimension: "ad_astra:mars"
-			id: "689B25E668C6BA03"
-			title: "MARS"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "34F112811B778101"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "689B25E668C6BA03"
+				title: "MARS"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7BC586533B42562E"
+			tasks: [{
+				count: 16L
+				id: "64D3F6D2E2458D62"
+				item: { Count: 16, id: "ad_astra:raw_ostrum" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1326898EEF99EDB4"
+			tasks: [{
+				count: 16L
+				id: "44921953DAB49E24"
+				item: { Count: 16, id: "ad_astra:ostrum_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "ad_astra:mars_globe"
+			id: "18893509D785FC1D"
+			rewards: [{
+				id: "65F0E2A379781034"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "3EB08F5283C8AB2F"
+					item: { Count: 32, id: "ad_astra:ostrum_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7A62AB64D788FBF6"
+					item: { Count: 64, id: "kubejs:moon_shard" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
 	title: "&#EA0000M&#F12A2Aa&#F85454r&#FF7E7Es"
 }
