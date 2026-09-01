@@ -11,4 +11,12 @@ MMEvents.registerControllers(event => {
     .type('mm:machine')
     .name('T2 Rocket Assembly Controller')
 
+    // PLANET DRILLS
+    event.create('steel_drill_controller')
+    .type('mm:machine')
+    .name('Steel Drill Controller')
+
+    event.create('desh_drill_controller')
+    .type('mm:machine')
+    .name('Desh Drill Controller')
 })

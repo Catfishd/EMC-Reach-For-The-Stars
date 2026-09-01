@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
         count: 64,
       },
     ],
-    pressure: 4.0,
+    pressure: 3.0,
     results: [Item.of("kubejs:fire_element", 1)],
   });
   event.custom({
@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
         count: 1,
       },
     ],
-    pressure: 4.5,
+    pressure: 4.0,
     results: [Item.of("kubejs:earth_core", 1)],
   });
 
@@ -116,5 +116,28 @@ ServerEvents.recipes((event) => {
       item: "kubejs:moon_ingot",
       count: 1,
     },
+  })
+  // STEEL DRILL FLUID
+  event.custom({
+    type: "pneumaticcraft:thermo_plant",
+    exothermic: false,
+    fluid_input: {
+      type: "pneumaticcraft:fluid",
+      fluid: "pneumaticcraft:lubricant",
+      amount: 1000,
+    },
+    fluid_output: {
+      type: "pneumaticcraft:fluid",
+      fluid: "kubejs:steel_drill_fluid",
+      amount: 500,
+    },
+    item_input: {
+      tag: "#minecraft:coals"
+    },
+    temperature: {
+      type: "pneumaticcraft:temperature",
+      min: 0,
+      max: 1000
+    }
   })
 });

@@ -16,6 +16,7 @@
 #8C5E34 tconstruct:crafting_station
 #B2A2E1 minecraft:dandelion
 #78072F ad_astra:desh_block
+#F2BA47 kubejs:desh_drill_fluid
 #DD8A11 rechiseled:dirt_muddy
 #4FA7D0 minecraft:dirt_path
 #2F436F minecraft:glass
@@ -75,6 +76,7 @@
 #D9135A minecraft:spruce_stairs
 #B1D22B minecraft:spruce_trapdoor
 #129062 thermal:steel_block
+#4A65FC kubejs:steel_drill_fluid
 #F428EC immersiveengineering:steel_scaffolding_standard
 #B21185 minecraft:stone_brick_slab
 #5CF3F1 minecraft:sugar_cane

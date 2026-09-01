@@ -227,6 +227,26 @@
 			x: 5.0d
 			y: 1.5d
 		}
+		{
+			id: "5D5BD125863AFB27"
+			tasks: [{
+				id: "7AAEC4291B07CEEF"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "0B393D4371548D13"
+			tasks: [{
+				id: "410E1E6C5C1F363B"
+				item: "kubejs:steel_drill_fluid_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
 	]
 	title: "&#484848P&#525252n&#5C5C5Ce&#666666u&#6F6F6Fm&#797979a&#838383t&#8D8D8Di&#979797c&#A1A1A1r&#AAAAAAa&#B4B4B4f&#BEBEBEt"
 }
